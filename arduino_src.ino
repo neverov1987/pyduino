@@ -13,7 +13,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  //Serial.println(flag);
   if(Serial.available() > 0) //Проверка, что буфер передачи досутпен
   {
     datafromUser=Serial.read(); //Чтение буфера
