@@ -4,7 +4,7 @@ import time
 import telebot
 
 # telegram bot init
-bot = telebot.TeleBot('TELEBOT_TOKEN')
+bot = telebot.TeleBot(${{ secrets.TELEBOT_TOKEN }})
 
 # Назначаем порт для связи с Arduino
 arduino = serial.Serial('/dev/ttyUSB0', 9600, timeout=2)
