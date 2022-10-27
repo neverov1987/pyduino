@@ -1,9 +1,11 @@
 To build:
+```shell
 docker build -t telebot_and_arduino .
-
+```
 To run:
+```shell
 docker run -v /dev:/dev --privileged -d telebot_and_arduino
-
+```
 Send your Telegram bot /help or /start for view commands
 
 version 0.1
